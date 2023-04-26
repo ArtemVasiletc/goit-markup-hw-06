@@ -548,6 +548,10 @@ header {
   margin-bottom: 8px;
 }
 
+.comment-form {
+  margin-bottom: 16px;
+}
+
 .modal-input-wrap {
   position: relative;
 }
@@ -581,6 +585,7 @@ header {
 }
 
 .form-field textarea {
+  display: block;
   resize: none;
   padding: 8px 16px;
   width: 100%;
@@ -610,6 +615,8 @@ textarea:focus {
 }
 
 .form-field label {
+  margin-bottom: 4px;
+  display: block;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
@@ -618,7 +625,6 @@ textarea:focus {
 }
 
 .modal-privacy-wrapper {
-  margin-top: 16px;
   margin-bottom: 24px;
   display: flex;
   align-items: center;
@@ -835,6 +841,10 @@ textarea:focus {
   color: var(--iris);
 }
 
+.footer-webstudio-info {
+  margin-right: 120px;
+}
+
 .logo-footer-span {
   color: var(--cloud);
 }
@@ -849,7 +859,6 @@ textarea:focus {
 }
 .footer-flex {
   display: flex;
-  gap: 120px;
 }
 
 .footer-social-media-title {
@@ -861,6 +870,7 @@ textarea:focus {
 }
 
 .footer-social-media {
+  margin-right: 80px;
 }
 
 .social-media-logo-list {
@@ -893,6 +903,12 @@ textarea:focus {
 
 .footer-subscribe-form {
   display: flex;
+  flex-direction: column;
+}
+
+.footer-subscribe-form form {
+  display: flex;
+  align-items: center;
   gap: 24px;
 }
 
@@ -940,7 +956,6 @@ textarea:focus {
 }
 
 .footer-submit {
-  margin-top: 40px;
   width: 165px;
   height: 40px;
   padding: 8px 24px;

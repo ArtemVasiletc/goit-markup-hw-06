@@ -420,7 +420,7 @@
     </main>
     <footer class="footer">
       <div class="container footer-flex">
-        <div>
+        <div class="footer-webstudio-info">
           <a href="./index.html" class="logo-footer link"
             >Web<span class="logo-footer-span">Studio</span></a
           >
@@ -463,25 +463,24 @@
           </ul>
         </div>
 
-        <form class="footer-subscribe-form">
-          <div>
-            <label for="email" class="footer-form-title">Subscribe </label>
+        <div class="footer-subscribe-form">
+          <p class="footer-form-title">Subscribe</p>
+          <form>
             <input
               type="email"
               name="email"
-              id="email"
               placeholder="E-mail"
               class="footer-email-input"
             />
-          </div>
 
-          <button type="submit" class="footer-submit button">
-            <span class="button-text"> Subscribe</span>
-            <svg width="24" height="24">
-              <use href="./images/symbol-defs.svg#icon-subscribe"></use>
-            </svg>
-          </button>
-        </form>
+            <button type="submit" class="footer-submit button">
+              <span class="button-text"> Subscribe</span>
+              <svg width="24" height="24">
+                <use href="./images/symbol-defs.svg#icon-subscribe"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
     <div data-modal class="backdrop is-hidden">
@@ -521,7 +520,7 @@
                 class="modal-form-input"
                 required
               />
-              <svg width="18" height="18" class="modal-icon">
+              <svg width="18" height="24" class="modal-icon">
                 <use href="./images/symbol-defs.svg#icon-modal-phone"></use>
               </svg>
             </div>
@@ -537,13 +536,13 @@
                 class="modal-form-input"
                 required
               />
-              <svg width="18" height="18" class="modal-icon">
+              <svg width="18" height="24" class="modal-icon">
                 <use href="./images/symbol-defs.svg#icon-modal-email"></use>
               </svg>
             </div>
           </div>
 
-          <div class="form-field">
+          <div class="form-field comment-form">
             <label for="comment">Comment</label>
             <textarea
               name="comment"
