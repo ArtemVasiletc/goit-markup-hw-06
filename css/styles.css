@@ -535,7 +535,7 @@ header {
 }
 
 .modal-form-title {
-  margin-bottom: 12px;
+  margin-bottom: 16px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -556,6 +556,7 @@ header {
   position: relative;
 }
 .modal-icon {
+  fill: var(--navy-blue);
   position: absolute;
   top: 50%;
   left: 16px;
